@@ -62,7 +62,7 @@ const Login = ({ navigation }) => {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigation.navigate('Cadastro')}>
-          <Text style={styles.registerLink}>Não possui uma conta? Registre-se</Text>
+          <Text style={styles.registerButton}>Não possui uma conta? Registre-se</Text>
         </TouchableOpacity>
       </Animatable.View>
     </View>
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontWeight: 'bold',
   },
-  registerLink: {
+  registerButton: {
     marginTop: 10,
     color: 'blue',
     textAlign: 'center',
