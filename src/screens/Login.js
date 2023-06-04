@@ -65,7 +65,7 @@ const Login = ({ navigation }) => {
           style={styles.registerButton}>
           <Text style={styles.registerButton}>Registrar</Text>
 
-  
+
         </TouchableOpacity>
 
   
